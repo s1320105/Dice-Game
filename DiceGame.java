@@ -24,12 +24,6 @@ public class DiceGame {
             System.out.println(name + " lost!");
         }
 
-        if (total > 7) {
-    System.out.println("You won!");
-} else {
-    System.out.println("You lost!");
-}
-
         scanner.close();
     }
 }
